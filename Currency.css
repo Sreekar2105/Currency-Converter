@@ -1,0 +1,105 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container{
+    background-color:whitesmoke;
+    padding: 2rem;
+    height:60vh;
+    width:30vw;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+input,select,button{
+    margin:0.5rem 0;
+    width: 100%;
+    border:none;
+    outline: none;
+}
+
+p,.msg{
+    padding:0.5rem 0;
+}
+
+form input{
+    font-size: 1.2rem;
+    height:5vh;
+    padding-left: 0.5rem;
+    border:0.5px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.currency
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.select
+{
+    display: flex;
+    border:1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding:0.25rem;
+}
+
+.select img{
+    width:3rem;
+}
+
+select{
+    font-size: 1rem;
+    background-color: whitesmoke;
+}
+
+
+.currency i{
+    font-size: 2rem;
+    margin-top:2.5rem;
+}
+
+.msg{
+    margin:2.5rem 0 1.5rem;
+}
+
+button
+{
+    font-size: 1.2rem;
+    background-color:teal;
+    color: white;
+    padding: 1.3rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
