@@ -214,6 +214,22 @@ body{
 
 @media screen and (min-width : 576px) and (max-width : 767px)
 {
+    
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container{
+    width:50%;
+    background-color:whitesmoke;
+    padding: 5vw;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
     .title 
    {
      font-size: 1.5rem;
