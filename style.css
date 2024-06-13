@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    width:50%;
+    width:60%;
     background-color:whitesmoke;
     padding: 5vw;
     margin-top: 2rem;
@@ -93,18 +93,22 @@ body{
 
 @media screen and (max-width : 443px)
 {
+    .container
+    {
+        width : 75%;
+    }
     .title 
    {
-     font-size: 3.75vw;
+     font-size: 6vw;
    }
    .enter-amount
    {
-     font-size: 3.5vw;
+     font-size: 4.5vw;
    }
    #from , #to
    {
     margin-left: 1vw;
-     font-size: 3.5vw;
+     font-size: 4.5vw;
    }
     .select
    {
@@ -123,34 +127,32 @@ body{
 
    .select select
    {
-    width : 20vw;
-    font-size: 3vw;
+    width : 22vw;
+    font-size: 4vw;
     position: relative;
     right:3vw;
    }
-   
-
    
     .currency i
     {
         position: relative;
         bottom: 1rem;
         right: 2vw;
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
 
     .msg
     {
-       font-size: 3.5vw;
+       font-size: 5vw;
     }  
 
     .button button
     {
-        width: 8rem;
+        width: 39vw;
     }
     .button button p
     {
-        font-size:  0.75rem;
+        font-size:  3.75vw;
     }
 }
 
