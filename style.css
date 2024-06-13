@@ -158,17 +158,21 @@ body{
 
 @media screen and (min-width : 444px) and (max-width : 575px)
 {
+    .container
+    {
+        width : 75%;
+    }
     .title 
    {
-     font-size: 1rem;
+     font-size: 6vw;
    }
    .enter-amount
    {
-     font-size: 0.75rem;
+     font-size: 4vw;
    }
    #from , #to
    {
-     font-size: 0.75rem;
+     font-size: 3.5vw;
    }
 
    .select
@@ -185,8 +189,8 @@ body{
 
    .select select
    {
-    width : 15vw;
-    font-size: 0.75rem;
+    width : 17vw;
+    font-size: 3vw;
    }
 
    
@@ -205,29 +209,32 @@ body{
 
     .button button
     {
-        width: 27vw;
+        width: 35vw;
     }
     .button button p
     {
         padding-top: 0.5rem;
-        font-size:  2.5vw;
+        font-size:  3.5vw;
     }
 }
 
 @media screen and (min-width : 576px) and (max-width : 767px)
 {
-    
+    .container
+    {
+        width : 75%;
+    }   
     .title 
    {
-     font-size: 1.5rem;
+     font-size: 6vw;
    }
    .enter-amount
    {
-    font-size: 3vw;
+    font-size: 3.75vw;
    }
    #from , #to
    {
-     font-size: 1rem;
+     font-size: 3vw;
    }
    .select
    {
@@ -244,7 +251,7 @@ body{
    .select select
    {
     width : 15vw;
-    font-size: 0.75rem;
+    font-size: 3vw;
    }
     .currency i
     {
@@ -261,30 +268,34 @@ body{
 
     .button button
     {
-        width: 27vw;
+        width: 30vw;
     }
     .button button p
     {
         padding-top: 0.5rem;
-        font-size:  2.5vw;
+        font-size:  3vw;
     }
 }
 
 
 @media screen and  (min-width : 768px) and (max-width : 991px)
 {
+    .container
+    {
+        width : 75%;
+    }
     .title
     {
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     .enter-amount
     {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     #from , #to
     {
-      font-size: 2vw;
+      font-size: 3vw;
     }
     .select
     {
@@ -299,24 +310,24 @@ body{
     .select select
     {
      width : 10vw;
-     font-size: 1.5vw;
+     font-size: 2vw;
     }
     .currency i
     {
-       font-size: 2vw;
+       font-size: 3.5vw;
     }
     .msg
     {
-       font-size: 2.5vw;
+       font-size: 3.5vw;
     }  
 
     .button button
     {
-        width: 20vw;
+        width: 28vw;
     }
     .button button p
     {
-        font-size:  2vw;
+        font-size:  3vw;
     }
  
 }
@@ -324,6 +335,10 @@ body{
 
 @media screen and  (min-width : 992px) and (max-width : 1199px)
 {
+     .container
+    {
+        width : 75%;
+    }
     .title
     {
         font-size: 3.5vw;
