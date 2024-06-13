@@ -13,43 +13,30 @@ body{
 }
 
 .container{
+    width:50%;
     background-color:whitesmoke;
-    padding: 2rem;
-    height:60vh;
-    width:30vw;
+    padding: 5vw;
+    margin-top: 2rem;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
-h1{
+.title{
+    font-weight: bolder;
+    font-size: 2.25vw;
     text-align: center;
 }
 
-input,select,button{
-    margin:0.5rem 0;
-    width: 100%;
-    border:none;
-    outline: none;
+.enter-amount
+{
+    font-size: 1.5vw;
 }
 
-p,.msg{
-    padding:0.5rem 0;
+
+#from , #to
+{
+   font-size: 1.25vw;
 }
 
-form input{
-    font-size: 1.2rem;
-    height:5vh;
-    padding-left: 0.5rem;
-    border:0.5px solid black;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-}
 
 .currency
 {
@@ -61,45 +48,324 @@ form input{
 
 .select
 {
+    width:12vw;
     display: flex;
+    gap: 0.25vw;
     border:1px solid black;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    padding:0.25rem;
+    padding : 0 0.25rem;
 }
 
 .select img{
-    width:3rem;
+    width:3.5vw;
+} 
+
+.form-select
+{
+    width: 8vw;
 }
 
-select{
-    font-size: 1rem;
-    background-color: whitesmoke;
+.select select{
+    font-size: 1.2vw;
+    background-color: transparent;
+    border:1px solid transparent;
 }
 
 
 .currency i{
-    font-size: 2rem;
+    font-size: 2vw;
     margin-top:2.5rem;
 }
 
 .msg{
+    font-size: 1.25vw;
+    text-align: center;
     margin:2.5rem 0 1.5rem;
 }
 
-button
+.button
 {
-    font-size: 1.2rem;
-    background-color:teal;
-    color: white;
-    padding: 1.3rem;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    cursor: pointer;
+   text-align: center;
 }
+
+
+
+
+@media screen and (max-width : 443px)
+{
+    .title 
+   {
+     font-size: 3.75vw;
+   }
+   .enter-amount
+   {
+     font-size: 3.5vw;
+   }
+   #from , #to
+   {
+    margin-left: 1vw;
+     font-size: 3.5vw;
+   }
+    .select
+   {
+    position: relative;
+    right : 0.5vw;
+    width:18vw;
+    flex-direction: column;
+    border:none;
+    margin-left: 1vw;
+   }
+
+   .select img
+   {
+    width:10vw;
+   } 
+
+   .select select
+   {
+    width : 0.1vw;
+    font-size: 3vw;
+    position: relative;
+    right:3vw;
+   }
+   
+
+   
+    .currency i
+    {
+        position: relative;
+        bottom: 1rem;
+        right: 2vw;
+        font-size: 3.5vw;
+    }
+
+    .msg
+    {
+       font-size: 3.5vw;
+    }  
+
+    .button button
+    {
+        width: 8rem;
+    }
+    .button button p
+    {
+        font-size:  0.75rem;
+    }
+}
+
+@media screen and (min-width : 444px) and (max-width : 575px)
+{
+    .title 
+   {
+     font-size: 1rem;
+   }
+   .enter-amount
+   {
+     font-size: 0.75rem;
+   }
+   #from , #to
+   {
+     font-size: 0.75rem;
+   }
+
+   .select
+   {
+    width:21vw;
+    flex-direction: column;
+    border:none
+   }
+
+   .select img
+   {
+    width:10vw;
+   } 
+
+   .select select
+   {
+    width : 5vw;
+    font-size: 0.75rem;
+   }
+
+   
+    .currency i
+    {
+        position: relative;
+        bottom: 1rem;
+        right: 5vw;
+        font-size: 5vw;
+    }
+
+    .msg
+    {
+       font-size: 3.75vw;
+    }  
+
+    .button button
+    {
+        width: 27vw;
+    }
+    .button button p
+    {
+        padding-top: 0.5rem;
+        font-size:  2.5vw;
+    }
+}
+
+@media screen and (min-width : 576px) and (max-width : 767px)
+{
+    .title 
+   {
+     font-size: 1.5rem;
+   }
+   .enter-amount
+   {
+    font-size: 3vw;
+   }
+   #from , #to
+   {
+     font-size: 1rem;
+   }
+   .select
+   {
+    width:21vw;
+    flex-direction: column;
+    border:none
+   }
+
+   .select img
+   {
+    width:10vw;
+   } 
+
+   .select select
+   {
+    width : 5vw;
+    font-size: 0.75rem;
+   }
+    .currency i
+    {
+        position: relative;
+        bottom: 1rem;
+        right: 5vw;
+        font-size: 5vw;
+    }
+
+    .msg
+    {
+       font-size: 3.75vw;
+    }  
+
+    .button button
+    {
+        width: 27vw;
+    }
+    .button button p
+    {
+        padding-top: 0.5rem;
+        font-size:  2.5vw;
+    }
+}
+
+
+@media screen and  (min-width : 768px) and (max-width : 991px)
+{
+    .title
+    {
+        font-size: 3.5vw;
+    }
+
+    .enter-amount
+    {
+        font-size: 3vw;
+    }
+    #from , #to
+    {
+      font-size: 2vw;
+    }
+    .select
+    {
+     width:15vw;
+    }
+ 
+    .select img
+    {
+     width:5vw;
+    } 
+ 
+    .select select
+    {
+     width : 10vw;
+     font-size: 1.5vw;
+    }
+    .currency i
+    {
+       font-size: 2vw;
+    }
+    .msg
+    {
+       font-size: 2.5vw;
+    }  
+
+    .button button
+    {
+        width: 20vw;
+    }
+    .button button p
+    {
+        font-size:  2vw;
+    }
+ 
+}
+
+
+@media screen and  (min-width : 992px) and (max-width : 1199px)
+{
+    .title
+    {
+        font-size: 3.5vw;
+    }
+
+    .enter-amount
+    {
+        font-size: 2.5vw;
+    }
+    #from , #to
+    {
+      font-size: 1.75vw;
+    }
+    .select
+    {
+     width:15vw;
+    }
+ 
+    .select img
+    {
+     width:5vw;
+    } 
+ 
+    .select select
+    {
+     width : 10vw;
+     font-size: 1.5vw;
+    }
+    .currency i
+    {
+       font-size: 2vw;
+    }
+    .msg
+    {
+       font-size: 2vw;
+    }  
+
+    .button button
+    {
+        width: 15vw;
+    }
+    .button button p
+    {
+        font-size:  1.5vw;
+    }
+  
+}
+
